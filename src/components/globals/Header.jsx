@@ -15,13 +15,13 @@ export const Header = () => {
       <input type="checkbox" id="nav-toggle" class="nav-toggle"></input>	
 
       <ul id="menu-topo">
-        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="/">Home</a></li>
         <li class="hide">•</li>
-        <li class="nav-item"><a href="#">Click</a></li>
+        <li class="nav-item"><a href="/click">Click</a></li>
         <li class="hide">•</li>
-        <li class="nav-item"><a href="#">ToDo</a></li>
+        <li class="nav-item"><a href="/todo">ToDo</a></li>
         <li class="hide">•</li>
-        <li class="nav-item"><a href="#">Testimonials</a></li>
+        <li class="nav-item"><a href="/testimonials">Testimonials</a></li>
       </ul>
     </>
   );
